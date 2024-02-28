@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Drum kit/title>
+    </head>
+    <body>
+        <section class="main_wrapper">
+            <div class="key_map_wrapper">
+                <h2>Key Map</h2>
+                <ul class="key_list">
+                    <li>
+                        <kbd class="key_code">E</kbd>
+                        <span class="key_sound">Crash</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">R</kbd>
+                        <span class="key_sound">Ride</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">F</kbd>
+                        <span class="key_sound">Floor Tom</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">G</kbd>
+                        <span class="key_sound">Mid Tom</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">H</kbd>
+                        <span class="key_sound">High Tom</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">V</kbd>
+                        <kbd class="key_code">B</kbd>
+                        <span class="key_sound">Kick</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">J</kbd>
+                        <span class="key_sound">Snare</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">I</kbd>
+                        <span class="key_sound">Hit-Hat Open</span>
+                    </li>
+                    <li>
+                        <kbd class="key_code">K</kbd>
+                        <span class="key_sound">Hit-Hat Closed</span>
+                    </li>
+                </ul>
+            </div>
+            <h1>DRUM KIT FOR BEGGINERS</h1>
+            <div class="drum_kit_wrapper">
+                <img id="crash_ride" src="assets/img/crash.png" alt="Crash, Chimbal">
+                <img id="Hit-Hat_Top" src="assets/img/hihat-top.png" alt="Hit-Hat Chimbal">
+                <div data-key="74" class="key snare">
+                    <kbd>J</kbd>
+                </div>
+                <div data-key="66" class="key kick">
+                    <kbd>B</kbd>
+                </div>
+                <div data-key="86" class="key kick_2">
+                    <kbd>V</kbd>
+                </div>
+                <div data-key="72" class="key High_Tom">
+                    <kbd>H</kbd>
+                </div>
+                <div data-key="71" class="key Mid_Tom">
+                    <kbd>G</kbd>
+                </div>
+                <div data-key="70" class="key Floor_Tom">
+                    <kbd>F</kbd>
+                </div>
+                <div data-key="69" class="key Crash">
+                    <kbd>E</kbd>
+                </div>
+                <div data-key="82" class="key Ride">
+                    <kbd>R</kbd>
+                </div>
+                <div data-key="73" class="key Hit_Hat_Open">
+                    <kbd>I</kbd>
+                </div>
+                <div data-key="75" class="key Hit_Hat_Closed">
+                    <kbd>K</kbd>
+                </div>
+                <img src="assets/img/drum-kit.png" alt="drum_kit">
+            </div>
+        </section>
+
+        <script src="drum.js"></script>
+    </body>
+</html>
